@@ -1,0 +1,550 @@
+<li><a href="#experience" class="scroll">Experience</a></li> 
+
+
+<!--<a href="#works" class="scroll goto-btn">Download Resume</a> <!-- Link to your portfolio section -->
+a.goto-btn { margin-right: 30px ; border: #fff 1px solid; padding: 12px 18px; color: #fff;}-->
+
+
+<!--<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="https://cdn.videvo.net/videvo_files/video/free/2016-12/small_watermarked/Typing_dark_03_Videvo_preview.webm" 
+        type="video/mp4">
+        </video>
+
+#home {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  #home video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+
+#home.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+
+-->
+
+
+
+ <!-- Intro Section
+    ================================================== -->
+    <section id="intro">
+        <div class="container"> <!-- container -->
+            <div class="row"> <!-- row -->
+
+                <div class="col-md-8 col-md-offset-2"> 
+                     <h1>I Love to create beautiful Websites.</h1>
+                    <p class="lead">Please go through my Profile.</p>
+                </div>
+                
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </section>
+
+
+
+
+<!-- experience Section
+    ================================================== -->
+    <section id="experience">
+        <div class="container"> <!-- container -->
+            <div class="section-header">
+                <h2>My Experience</h2>
+                <h5><em>Lorem Ipsum is simply dummy text of the printing and typesetting industry</em></h5>
+                <div class="fancy"><span></span></div>
+            </div>
+        </div><!-- end container -->
+
+        <div class="gray-bg"> <!-- fullwidth gray background -->
+            <div class="container"><!-- container --> 
+                <div id="experience" class="row"> <!-- row -->
+
+                    <div class="col-md-10 col-md-offset-1">
+
+                        <div class="media experience"> <!-- experience #1 -->
+                            <div class="media-right media-middle">
+                                <i class="fa fa-facebook"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Facebook</h4>
+								<h5>2011 to Present</h5>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry, sem auctor, molestie diam dictum aliquam. Dolor leo, ridiculus est ut cubilia nec, fermentum arcu praesent, pede etiam. Tempor vestibulum turpis id ligula mi mattis. Eget arcu vitae mauris amet odio.</p>
+                            </div>
+                        </div><!-- experience #1 -->
+
+                        <div class="media experience"> <!-- experience #2 -->
+                            <div class="media-right media-middle">
+                                <i class="fa fa-google-plus"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Google Dev</h4>
+								<h5>2007 to 2011</h5>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry, sem auctor, molestie diam dictum aliquam. Dolor leo, ridiculus est ut cubilia nec, fermentum arcu praesent, pede etiam. Tempor vestibulum turpis id ligula mi mattis. Eget arcu vitae mauris amet odio.</p>
+                            </div>
+                        </div><!-- experience #2 -->
+
+                        <div class="media experience"> <!-- experience #3 -->
+                            <div class="media-right media-middle">
+                                <i class="fa fa-yahoo"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Yahoo Inc</h4>
+								<h5>2004 to 2007</h5>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry, sem auctor, molestie diam dictum aliquam. Dolor leo, ridiculus est ut cubilia nec, fermentum arcu praesent, pede etiam. Tempor vestibulum turpis id ligula mi mattis. Eget arcu vitae mauris amet odio.</p>
+                            </div>
+                        </div><!-- experience #3 -->
+
+                        <div class="media experience"> <!-- experience #4 -->
+                            <div class="media-right media-middle">
+                                <i class="fa fa-linkedin"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">LinkedIn</h4>
+								<h5>2001 to 2004</h5>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry, sem auctor, molestie diam dictum aliquam. Dolor leo, ridiculus est ut cubilia nec, fermentum arcu praesent, pede etiam. Tempor vestibulum turpis id ligula mi mattis. Eget arcu vitae mauris amet odio.</p>
+                            </div>
+                        </div><!-- experience #4 -->
+                        
+                    </div>
+
+                </div> <!-- end row -->
+            </div><!-- end container -->
+        </div>  <!-- end fullwidth gray background -->
+    </section>
+
+    
+
+
+Filltering class:
+
+<!-- Portfolio Filter Categories -->
+            <!--<div class="text-center">
+                <ul class="list-inline cat"> 
+                    <li><a href="#" data-filter="*" class="active">All</a></li>
+                    <li><a href="#" data-filter=".brand">Design</a></li>
+                    <li><a href="#" data-filter=".web">Web</a></li>
+                    <li><a href="#" data-filter=".app">Apps</a></li>
+                    <li><a href="#" data-filter=".others">Others</a></li>
+                </ul>                
+            </div>-->
+            <!-- End Portfolio Filter Categories -->
+
+
+
+ <div class="container-fluid"> <!-- fluid container -->
+             <div id="itemsWork" class="row text-center"> <!-- Portfolio Wrapper Row -->
+
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 nopadding brand others"> <!-- Works #1 col 3 -->
+                    <div class="box"> 
+                        <div class="hover-bg">
+                            <div class="hover-text off">
+                                <a title="Logo Identity Design" href="img/portfolio/01.jpg" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/portfolio/01.jpg">
+                                    <i class="fa fa-expand"></i>
+                                </a>
+                                <a href="#"><i class="fa fa-chain"></i></a> <!-- change # with your url to link it to another page -->
+                            </div> 
+                            <img src="img/portfolio/01.jpg" class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                        </div>
+                    </div>
+                </div><!-- end Works #1 col 3 -->
+
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 nopadding apps"> <!-- Works #2 col 3 -->
+                    <div class="box">
+                        <div class="hover-bg">
+                            <div class="hover-text off">
+                                <a title="Mobile Application" href="img/portfolio/02.jpg" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/portfolio/02.jpg">
+                                    <i class="fa fa-expand"></i>
+                                </a>
+                                <a href="#"><i class="fa fa-chain"></i></a><!-- change # with your url to link it to another page -->
+                            </div>
+                            <img src="img/portfolio/02.jpg" class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                        </div>
+                    </div>
+                </div><!-- end Works #2 col 3 -->
+
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 nopadding others brand"><!-- Works #3 col 3 -->
+                    <div class="box">
+                        <div class="hover-bg">
+                            <div class="hover-text off">
+                                <a title="Freedom Project #1" href="img/portfolio/03.jpg" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/portfolio/03.jpg">
+                                    <i class="fa fa-expand"></i>
+                                </a>
+                                <a href="#"><i class="fa fa-chain"></i></a><!-- change # with your url to link it to another page -->
+                            </div>
+                            <img src="img/portfolio/03.jpg" class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                        </div>
+                    </div>
+                </div><!-- end Works #3 col 3 -->
+
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 nopadding others web"> <!-- Works #4 col 3 -->
+                    <div class="box">
+                        <div class="hover-bg">
+                            <div class="hover-text off">
+                                <a title="Freedom Project #1" href="img/portfolio/04.jpg" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/portfolio/04.jpg">
+                                    <i class="fa fa-expand"></i>
+                                </a>
+                                <a href="#"><i class="fa fa-chain"></i></a><!-- change # with your url to link it to another page -->
+                            </div>
+                            <img src="img/portfolio/04.jpg" class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                        </div>
+                    </div>
+                </div> <!-- end Works #4 col 3 -->
+
+                <div class="col-xs-12 col-sm-6 col-md-3 nopadding web others"> <!-- Works #5 col 3 -->
+                    <div class="box">
+                        <div class="hover-bg">
+                            <div class="hover-text off">
+                                <a title="Freedom Project #1" href="img/portfolio/05.jpg" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/portfolio/05.jpg">
+                                    <i class="fa fa-expand"></i>
+                                </a>
+                                <a href="#"><i class="fa fa-chain"></i></a><!-- change # with your url to link it to another page -->
+                            </div>
+                            <img src="img/portfolio/05.jpg" class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                        </div>
+                    </div>
+                </div> <!-- end Works #5 col 3 -->
+
+                <div class="col-xs-12 col-sm-6 col-md-3 nopadding app">  <!-- Works #6 col 3 -->
+                    <div class="box">
+                        <div class="hover-bg">
+                            <div class="hover-text off">
+                                <a title="Freedom Project #1" href="img/portfolio/06.jpg" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/portfolio/06.jpg">
+                                    <i class="fa fa-expand"></i>
+                                </a>
+                                <a href="#"><i class="fa fa-chain"></i></a><!-- change # with your url to link it to another page -->
+                            </div>
+                            <img src="img/portfolio/06.jpg" class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                        </div>
+                    </div>
+                </div><!-- end Works #6 col 3 -->
+
+                <div class="col-xs-12 col-sm-6 col-md-3 nopadding web brand"><!-- Works #7 col 3 -->
+                    <div class="box">
+                        <div class="hover-bg">
+                            <div class="hover-text off">
+                                <a title="Freedom Project #1" href="img/portfolio/07.jpg" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/portfolio/07.jpg">
+                                    <i class="fa fa-expand"></i>
+                                </a>
+                                <a href="#"><i class="fa fa-chain"></i></a><!-- change # with your url to link it to another page -->
+                            </div>
+                            <img src="img/portfolio/07.jpg" class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                        </div>
+                    </div>
+                </div><!-- end Works #7 col 3 -->
+
+                <div class="col-xs-12 col-sm-6 col-md-3 nopadding app"> <!-- Works #8 col 3 -->
+                    <div class="box"> 
+                        <div class="hover-bg">
+                            <div class="hover-text off">
+                                <a title="Freedom Project #1" href="img/portfolio/08.jpg" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/portfolio/08.jpg">
+                                    <i class="fa fa-expand"></i>
+                                </a>
+                                <a href="#"><i class="fa fa-chain"></i></a><!-- change # with your url to link it to another page -->
+                            </div>
+                            <img src="img/portfolio/08.jpg" class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                        </div> 
+                    </div>
+                </div> <!-- end Works #8 col 3 -->
+                
+            </div> <!-- End Row -->
+
+        </div>
+
+
+
+
+// Jquery for main.js file
+
+
+// Hello.
+//
+// This is The Scripts used for ___________ Theme
+//
+//
+
+
+function main() {
+
+(function () {
+   'use strict';
+
+    
+ 	// Smooth Scrolling
+    //==========================================
+    $(function() {
+      $('a.scroll').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html,body').animate({
+              scrollTop: target.offset().top -50
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    });
+
+    /*====================================
+    Script for the Counters for Facts Section
+    ======================================*/
+    $('.count').each(function() {
+        var $this = $(this);
+        $this.data('target', parseInt($this.html()));
+        $this.data('counted', false);
+        $this.html('0');
+    });
+    $(window).bind('scroll', function() {
+        var speed = 3000;
+        $('.count').each(function() {
+            var $this = $(this);
+            if (!$this.data('counted') && $(window).scrollTop() +
+                $(window).height() >= $this.offset().top) {
+                $this.data('counted', true);
+                $this.animate({
+                    dummy: 1
+                }, {
+                    duration: speed,
+                    step: function(now) {
+                        var $this = $(this);
+                        var val = Math.round(
+                            $this.data(
+                                'target') *
+                            now);
+                        $this.html(val);
+                        if (0 < $this.parent(
+                            '.value').length) {
+                            $this.parent(
+                                '.value').css(
+                                'width',
+                                val + '%');
+                        }
+                    }
+                });
+            }
+        });
+    }).triggerHandler('scroll');
+
+    /*====================================
+    Portfolio Carousel 
+    ======================================*/
+  	$(document).ready(function() {
+  	  var owl = $("#team");
+  	  owl.owlCarousel({
+  	     
+  	      itemsCustom : [
+  	        [0, 1],
+  	        [450, 1],
+  	        [660, 2],
+  	        [700, 2],
+  	        [1200, 3],
+  	        [1600, 3]
+  	      ],
+  	      navigation : false,
+  	      pagination: true,
+  	  });
+  	 
+  	});
+
+    /*====================================
+    Portfolio Isotope Filter
+    ======================================*/
+    $(window).load(function() {
+        var $container = $('#itemsWork , #itemsWorkTwo, #itemsWorkThree');
+        $container.isotope({
+            filter: '* , all',
+            animationOptions: {
+                duration: 750,
+                easing: 'linear',
+                queue: false
+            }
+        });
+        $('.cat a').click(function() {
+            $('.cat .active').removeClass('active');
+            $(this).addClass('active');
+            var selector = $(this).attr('data-filter');
+            $container.isotope({
+                filter: selector,
+                animationOptions: {
+                    duration: 750,
+                    easing: 'linear',
+                    queue: false
+                }
+            });
+            return false;
+        });
+
+    });
+
+    /*====================================
+    Nivo Lightbox 
+    ======================================*/
+    // Agency Portfolio Popup
+    $('#itemsWork a , #itemsWorkTwo a , #itemsWorkThree a , #popup a').nivoLightbox({
+            effect: 'slideDown',  
+            keyboardNav: true,                            
+        });
+
+    $(document).ready(function() {
+ 
+  $("#owl-demo").owlCarousel({
+ 
+      navigation : false, // Show next and prev buttons
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      singleItem:true
+ 
+      // "singleItem:true" is a shortcut for:
+      // items : 1, 
+      // itemsDesktop : false,
+      // itemsDesktopSmall : false,
+      // itemsTablet: false,
+      // itemsMobile : false
+ 
+  });
+ 
+});
+
+}());
+
+
+}
+main();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const ContactForm = document.querySelector('.contact-form');
+
+let name = document.getElementById('name');
+let email = document.getElementById('email');
+let phone = document.getElementById('phone');
+let message = document.getElementById('message');
+
+ContactForm.addEventListener('submit', (e)=> {
+    e.preventDefault();
+
+    let FormData = {
+      name: name.value,
+      email: email.value,
+      phone: phone.value,
+      message: message.value
+    }
+
+    let xhr = new XMLHttpRequest();
+    xhr.open('POST','/');
+    xhr.setRequestHeader('content-type','application/json');
+    xhr.onload = function(){
+        console.log(xhr.responseText);
+        if(xhr.responseText == 'success'){
+            alert("Email sent");
+            name.value = '';
+            email.value = '';
+            phone.value = '';
+            message.value = '';
+        }
+        else {
+            alert("something went wrong!");
+        }
+    }
+
+    xhr.send(JSON.stringify(FormData));
+
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const ContactForm = document.querySelector('.contact-form');
+
+let name = document.getElementById('name');
+let email = document.getElementById('email');
+let phone = document.getElementById('phone');
+let message = document.getElementById('message');
+
+
+ContactForm.addEventListener('submit', (e) =>{
+    e.preventDefault();
+  
+  let FormData = {
+    name:name.value, 
+    email:email.value, 
+    phone:phone.value,
+    message:message.value
+  }
+
+  function submitEmailForm(){
+    let xhr = new XMLHttpRequest();
+  xhr.open('POST','/ajax/email');
+  xhr.setRequestHeader('content-type','application/json');
+  xhr.onload = function(){
+      console.log(xhr.responseText);
+      if(xhr.responseText == 'success'){
+          alert("Email sent");
+          name.value = '';
+          email.value = '';
+          phone.value = '';
+          message.value = '';
+      }
+      else {
+          alert("something went wrong!");
+      }
+  }
+
+  xhr.send(JSON.stringify(FormData));
+  }
+
+})
