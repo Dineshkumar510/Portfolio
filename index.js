@@ -24,12 +24,12 @@ app.post('/',(req, res)=> {
             user: process.env.USERNAME || "DineshMails510@gmail.com",
             pass: process.env.PASSWORD || "password01!"
         }
-    })
+    });
 
     const mailOptions = {
         from: req.body.email,
         to: process.env.USERNAME || "DineshMails510@gmail.com",
-        subject: `Message from ${req.body.email}: from phone "${req.body.phone}"`,
+        subject: `Message from ${req.body.email}: from phone:"${req.body.phone}"`,
         text: req.body.message
     }
 
@@ -42,9 +42,8 @@ app.post('/',(req, res)=> {
             console.log('Email sent' + info); 
             res.send("success");
         }
-    })
-
-})
+    });
+});
 
 
 app.listen(port, ()=> {

@@ -2,10 +2,9 @@
 
 //Email  form
 
-
 const ContactForm = document.querySelector('.contact-form');
 
-let name = document.getElementById('name');
+let Name = document.getElementById('name');
 let email = document.getElementById('email');
 let phone = document.getElementById('phone');
 let message = document.getElementById('message');
@@ -15,7 +14,7 @@ ContactForm.addEventListener('submit', (e) =>{
     e.preventDefault();
 
     let FormData = {
-      name:name.value, 
+      name:Name.value, 
       email:email.value, 
       phone:phone.value,
       message:message.value
