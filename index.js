@@ -14,6 +14,10 @@ app.get('/', (req, res)=> {
     res.sendFile(__dirname + "/public/index.html");
 });
 
+app.get('/resume', (req, res)=> {
+   res.sendFile(__dirname + "/public/Resume/My-Resume.html");
+});
+
 
 app.post('/',(req, res)=> {
     console.log(req.body);
