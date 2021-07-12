@@ -15,7 +15,7 @@ app.get('/', (req, res)=> {
 });
 
 app.get('/resume', (req, res)=> {
-   res.sendFile(__dirname + "/public/Resume/My-Resume.html");
+   res.sendFile(__dirname + "/public/Resume/My Resume.html");
 });
 
 

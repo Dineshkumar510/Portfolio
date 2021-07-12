@@ -27,7 +27,7 @@ ContactForm.addEventListener('submit', (e) =>{
       console.log(xhr.responseText);
       if(xhr.responseText == 'success'){
         alert("Email Send Successfully!");
-          name.value = '';
+          Name.value = '';
           email.value = '';
           phone.value = '';
           message.value = '';
