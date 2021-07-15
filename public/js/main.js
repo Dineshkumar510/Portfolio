@@ -1,5 +1,3 @@
-
-
 //Email  form
 
 const ContactForm = document.querySelector('.contact-form');
@@ -26,25 +24,31 @@ ContactForm.addEventListener('submit', (e) =>{
   xhr.onload = function(){
       console.log(xhr.responseText);
       if(xhr.responseText == 'success'){
-        alert("Email Send Successfully!");
+        Toastify({
+          text: "Email Sent Successfully😊",
+          duration: 2100
+          }).showToast();
+
           Name.value = '';
           email.value = '';
           phone.value = '';
           message.value = '';
       }
       else {
-          alert("something went wrong!");
+        Toastify({
+          text: "Something Went Wrong!🤷‍♂️",
+          duration: 3000,
+          backgroundColor: '#de0b0b',
+          }).showToast();
       }
-  }
+  };
 
   xhr.send(JSON.stringify(FormData));
 
-})
-
+});
 
 
 // slider 
-
  // Initialize Swiper 
  
  var swiper = new Swiper(".mySwiper", {
@@ -87,6 +91,7 @@ btn.on('click', function(e) {
   e.preventDefault();
   $('html, body').animate({scrollTop:0}, '200');
 });
+
 
 
 // age 

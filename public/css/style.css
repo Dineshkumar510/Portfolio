@@ -457,6 +457,7 @@ ul.social li a.fa {
     margin-bottom: 0;
 }
 ul.social li a.fa:hover { background-color: #333333 }
+
 /* Skills Progress Bar */
 .progress {
     height: 12px;
@@ -1223,3 +1224,7 @@ ul.meta-tags li:last-child:after { content: ' ' }
     opacity: 1;
     visibility: visible;
   }
+
+.btn_more {
+    margin-top: 30px;
+}

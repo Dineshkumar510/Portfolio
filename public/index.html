@@ -20,12 +20,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
 
+    <!-- Toastify css-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
 
     <!-- Slider
     ================================================== -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
-  
 
     <!-- Stylesheet
     ================================================== -->
@@ -299,10 +300,10 @@
             <div class="section-header">
                 <h2>My Works</h2>
                 <h5><em>You can see my works & also can see on My Github Profile</em></h5>
-                <div class="fancy"><span></span></div>
+                <div class="fancy"><span></span></div>-
             </div>
         
-            <div class="swiper-container mySwiper">
+            <main class="swiper-container mySwiper">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
                     <a target="_blank" href="https://guarded-sea-76679.herokuapp.com/">
@@ -320,48 +321,14 @@
                     </a>
                   </div>
 
-                  <div class="swiper-slide">
-                    <a target="_blank" href="https://gallerymania.herokuapp.com/">
-                        <img class="port" src="img/portfolio/port9.png" />
-                    </a>
-                  </div>
-
-                  <div class="swiper-slide">
-                    <a target="_blank" href="https://dineshkumar510.github.io/ReactBootstrap/">
-                        <img class="port" src="img/portfolio/port2.png" />
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a target="_blank" href="https://dineshkumar510.github.io/React-RandomPersonApi/">
-                        <img class="port" src="img/portfolio/port3.png" />
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a target="_blank" href="https://dineshkumar510.github.io/React-ShoppingAPI/">
-                        <img class="port" src="img/portfolio/port4.png" />
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a target="_blank" href="https://heuristic-jepsen-831426.netlify.app/">
-                        <img class="port" src="img/portfolio/port5.png" />
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a target="_blank" href="https://dineshkumar510.github.io/">
-                        <img class="port" src="img/portfolio/port6.png" />
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a target="_blank" href="https://unruffled-roentgen-3713d0.netlify.app/">
-                        <img class="port" src="img/portfolio/port7.png" />
-                    </a>
-                  </div>
                 </div>
                 <br>
                 <div class="swiper-pagination"></div>
-              </div>
-            
+            </main>
 
+            <div class="col-4 text-center">
+                <a href="/projects" class="btn btn-primary btn color btn_more" target="_blank">See more..</a>
+            </div>
             
         </div><!-- End Container -->
 
@@ -422,7 +389,7 @@
                             <!-- Input your name -->
                             <div class="col-md-4">
                                 <div class="form-group"> <!-- Your name input -->
-                                    <input type="text" name="name" autocomplete="on" class="form-control" placeholder="Your Name *" id="name" data-validation-required-message="Please enter your name." required>
+                                    <input type="text" pattern="[a-zA-Z'-'\s]*" maxlength="25" name="name" autocomplete="on" class="form-control" placeholder="Your Name *" id="name" data-validation-required-message="Please enter your name." required>
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
@@ -430,7 +397,8 @@
                             <!-- Input your email -->
                             <div class="col-md-4">
                                 <div class="form-group"> <!-- Your email input -->
-                                    <input type="email" name="email" autocomplete="on" class="form-control" placeholder="Your Email *" id="email" data-validation-required-message="Please enter your email address." required>
+                                    <input type="email" name="email" autocomplete="on" class="form-control" placeholder="Your Email *" id="email" 
+                                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" data-validation-required-message="Please enter your email address." required>
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
@@ -438,7 +406,8 @@
                             <!-- Input your Phone no. -->
                             <div class="col-md-4">
                                 <div class="form-group"> <!-- Your email input -->
-                                    <input type="number" name="phone" autocomplete="on" class="form-control" placeholder="Your Phone No. *" id="phone" data-validation-required-message="Please enter your phone no." required>
+                                    <input type="tel" name="phone" autocomplete="on" class="form-control" placeholder="Your Phone No. *" id="phone"
+                                   maxlength="10" pattern="[7-9]{1}[0-9]{9}" data-validation-required-message="Please enter your phone no." required>
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
@@ -447,7 +416,7 @@
 
                         <!-- Message Text area -->
                         <div class="form-group"> <!-- Your email input -->
-                            <textarea class="form-control" name="message" rows="7" placeholder="Tell Us Something..." id="message" data-validation-required-message="Please enter a message." required></textarea>
+                            <textarea class="form-control" name="message" rows="7" maxlength="300" placeholder="Tell Us Something..." id="message" data-validation-required-message="Please enter a message." required></textarea>
                             <p class="help-block text-danger"></p>
                             <!--<div id="success"></div>-->
                         </div>
@@ -492,6 +461,8 @@
     <script type="text/javascript" src="js/owl.carousel.js"></script><!-- Owl Carousel Plugin -->
     <!--<script type="text/javascript" src="js/SmoothScroll.js"></script>--> 
 
+    <!--Toastify js-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 
    <!-- Slider -->
    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
