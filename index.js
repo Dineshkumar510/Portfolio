@@ -22,7 +22,7 @@ app.post('/',(req, res)=> {
         service: 'gmail',
         auth: {
             user: process.env.USERNAME || "DineshMails510@gmail.com",
-            pass: process.env.PASSWORD || "password01!"
+            pass: process.env.PASSWORD || "gedooqpxnyznxqzs"
         }
     });
 
