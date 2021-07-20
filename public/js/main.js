@@ -104,3 +104,6 @@ var age = new Date(difference).getFullYear() - 1970
 
 var span = document.getElementById('age');
 span.innerHTML = age;
+
+
+

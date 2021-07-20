@@ -129,6 +129,10 @@ background-image: url(../img/portfolio/port10.png);
 background-image: url(../img/portfolio/port7.png);
 }
 
+.card:nth-child(11):before {
+    background-image: url(../img/portfolio/port11.png);
+    }
+
 
 .content {
     position: relative;

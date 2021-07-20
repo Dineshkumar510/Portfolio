@@ -57,5 +57,9 @@ router.get('/projects/img/portfolio/port10.png', (req, res)=>{
     res.sendFile(__dirname + "/public/img/portfolio/port10.png");
 });
 
+router.get('/projects/img/portfolio/port11.png', (req, res)=>{
+    res.sendFile(__dirname + "/public/img/portfolio/port11.png");
+});
+
 module.exports = router;
 
