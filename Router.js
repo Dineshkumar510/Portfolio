@@ -17,6 +17,10 @@ router.get('/projects/css/Projects.css', (req, res)=> {
     res.sendFile(__dirname + "/public/css/Projects.css");
 });
 
+router.get('/projects/img/portfolio/port.png', (req, res)=>{
+    res.sendFile(__dirname + "/public/img/portfolio/port.png");
+});
+
 router.get('/projects/img/portfolio/port1.png', (req, res)=>{
     res.sendFile(__dirname + "/public/img/portfolio/port1.png");
 });

@@ -94,42 +94,46 @@ background-image: url(../img/portfolio/port1.png);
 }
 
 .card:nth-child(2):before {
+    background-image: url(../img/portfolio/port.png);
+    }
+
+.card:nth-child(3):before {
 background-image: url(../img/portfolio/port2.png);
 }
 
-.card:nth-child(3):before {
+.card:nth-child(4):before {
 background-image: url(../img/portfolio/port3.png);
 }
 
-.card:nth-child(4):before {
+.card:nth-child(5):before {
 background-image: url(../img/portfolio/port4.png);
 }
 
-.card:nth-child(5):before {
+.card:nth-child(6):before {
 background-image: url(../img/portfolio/port5.png);
 }
 
-.card:nth-child(6):before {
+.card:nth-child(7):before {
 background-image: url(../img/portfolio/port6.png);
 }
 
-.card:nth-child(7):before {
+.card:nth-child(8):before {
 background-image: url(../img/portfolio/port8.png);
 }
 
-.card:nth-child(8):before {
+.card:nth-child(9):before {
 background-image: url(../img/portfolio/port9.png);
 }
 
-.card:nth-child(9):before {
+.card:nth-child(10):before {
 background-image: url(../img/portfolio/port10.png);
 }
 
-.card:nth-child(10):before {
+.card:nth-child(11):before {
 background-image: url(../img/portfolio/port7.png);
 }
 
-.card:nth-child(11):before {
+.card:nth-child(12):before {
     background-image: url(../img/portfolio/port11.png);
     }
 
